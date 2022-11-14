@@ -29,7 +29,7 @@ const Desafio = () => {
 export default Desafio;
 
 const styles = StyleSheet.create({
-  container: {    
+  container: {
     flex: 1,
     backgroundColor: "white",
   },
@@ -45,17 +45,18 @@ const styles = StyleSheet.create({
   },
   retangulo: {
     marginTop: 30,
-    height: 80,
-    width: 80,
+    height: "45%",
+    width: "25%",
     backgroundColor: "#f8a82b",
   },
   retangulo2: {
-    marginTop: 30,
-    height: 30,
-    width: 160,
+    marginTop: 15,
+    height: "17%",
+    width: "50%",
     backgroundColor: "#f8a82b",
   },
   container3: {
+    marginTop:15,
     flexDirection: "row",
   },
   retanguloRoxo: {
@@ -64,7 +65,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#a900fd",
   },
   retanguloAzul: {
-    height: 80,
+    height: "100%",
     width: "50%",
     backgroundColor: "#5485e1",
   },
@@ -75,16 +76,16 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "45%",
     flexWrap: "wrap",
-    
   },
   quadradoLaranja: {
     margin: 10,
-    height: 80,
-    width: 80,
+    height: "33%",
+    width: "25%",
     backgroundColor: "#f8a82b",
   },
   container5: {
-    flex:1,
-    backgroundColor:"#5485e1"
+    flex: 1,
+    
+    backgroundColor: "#5485e1",
   },
 });
